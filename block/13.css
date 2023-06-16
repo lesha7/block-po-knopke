@@ -1,0 +1,27 @@
+#block {
+position: fixed;
+top: -100%;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(228, 224, 29);
+transition: top 0.5s ease-in-out;
+z-index: 9999;
+}
+  
+#block.active {
+top: 0;
+}
+
+#show-block {
+width: 400px;
+height: 100px;
+margin-top: 200px;
+margin-left: 700px;
+color: rgb(255, 0, 0);
+background-color: rgb(228, 224, 29);
+}
+
+body {
+    background-color: black;
+}
